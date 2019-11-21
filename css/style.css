@@ -307,14 +307,14 @@ h3 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 0;
+  /*font-size: 0;*/
   padding-top: 20px
 }
 
 .Work {
   display: block;
   margin-bottom: 60px;
-  font-size: 0;
+  /*font-size: 0;*/
 }
 
 .Work:last-child {
@@ -581,4 +581,7 @@ h3 {
   .r {
     font-size: 18px
   }
+}
+.footnote {
+  font-size: .75rem;
 }

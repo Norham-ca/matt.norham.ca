@@ -8,9 +8,9 @@
 
 <body>
     <div class="ScrollWrapper">
-        <header class="Header js-HasVH" data-vh="0.75">
+        <header class="Header js-HasVH" data-vh="0.9">
             <nav><a class="x" href="#about"><span>About</span></a>
-                <a class="x" href="#work"> <span>Work</span></a>
+                <a class="x" href="#work"> <span>Projects</span></a>
                 <a class="x" href="#contact"> <span>Contact</span></a>
             </nav>
             <div class="Scene">
@@ -18,21 +18,67 @@
                 <canvas class="Scene-stars" role="presentation"></canvas>
                 <canvas class="Scene-mountains" data-stop-on-scroll="true" role="presentation"></canvas>
             </div>
-            <h1 class="h"><span class="e d" aria-label="Matthew Ham"> <span class="c" aria-hidden="true">Matthew </span><span class="b" aria-hidden="true"> Ham</span></span><span class="f d" aria-label="Creative Developer"><span class="c" aria-hidden="true">Software </span><span class="b" aria-hidden="true">Engineer</span></span><div class="a js-Lazyload" role="presentation" data-image="img/separator-green.svg"></div></h1></header>
+            <h1 class="h">Matthew Jeremy Ham
+              <span class="f d" aria-label="Creative Developer"><span class="c" aria-hidden="true">Software </span><span class="b" aria-hidden="true">Engineer</span></span><div class="a js-Lazyload" role="presentation" data-image="img/separator-green.svg"></div></h1>
+        </header>
         <main>
             <div class="p">
                 <section>
                     <h2 id="about">About</h2>
-                    <p class="q">Software engineer focusing on user interfaces—from command line tools, to design systems, to rich experiences.</p>
+                    <p class="q">I'm a Computer Science Researcher, currently developing a SmallTalk transpiler at Ryerson University. I have experience in Full stack software engineering, machine learning, dev ops, and more.</p>
+                </section>
+                <section>
+                    <h2 id="work">Projects</h2>
+                    <div class="Works">
+                        <article class="Work">
+                            <div >
+                                <h3 class="m"><a href="https://pharojs.github.io/" target="_blank" >PharoJs</a><div class="l">Sep 2019 - Present</div></h3>
+                                <p>Undergraduate Computer Science Thesis project. Developing PharoJS in Smalltalk, which will lead to an infrastructure that allows development in Pharo that will run on a javascript interpreter.</p>
+                            </div>
+                        </article>
+                        <article class="Work">
+                            <div >
+                                <h3 class="m"><a href="https://getsummit.net/" target="_blank" >Get Summit</a><div class="l">Oct 2019</div></h3>
+                                <p>Developed a tool to help recruiters rank the capabilities of potential job candidates. Housed on Google Cloud Platform, set up infrastructure including a load balancer, several VM’s, a relational database, and a serverless cloud function that processes data.</p>
+                            </div>
+                        </article>
+                        <article class="Work">
+                            <div >
+                                <h3 class="m">Crypsis<div class="l">Aug 2019</div></h3>
+                                <p>In 36 hours, used Tensorflow.js to make a lightweight neural network that detects images depicting adult content. Condensed the neural network to fit in a chrome extension to label images without intruding on the user's experience.</p>
+                            </div>
+                        </article>
+                        <article class="Work">
+                            <div >
+                                <h3 class="m"><a href="https://github.com/matthewninja/badugi" target="_blank" >Poker AI</a><div class="l">Jan 2019 - Apr 2019</div></h3>
+                                <p>Built for Ryerson's Artificial Intelligence course. Using Java, developed artificial intelligence to play poker and make decisions within 8 seconds. Used a Monte-Carlo simulation and self-learning to explore possible game outcomes resulting in optimal decisions. De-obfuscated and reverse engineered a popular poker client to allow the AI to interface with it.</p>
+                            </div>
+                        </article>
+                        <article class="Work">
+                            <div >
+                                <h3 class="m">Whale Token Cryptocurrency<div class="l">May 2017 - May 2019</div></h3>
+                                <p>During the 2017 rise of the ICO, I made a satirical token to try and get a piece of the pie. My cryptocurrency was built on Ethereum network using Solidity v0.10. I made a few people laugh, and ended up raising over $1,000</p>
+                            </div>
+                        </article>
+                        <article class="Work">
+                            <div >
+                                <h3 class="m"><a href="https://www.nhl.com/canadiens/fans/app" target="_blank" >Montréal Canadiens Mobile App</a><div class="l">Aug 2016</div></h3>
+                                <p>Developed a hybrid mobile application for the Montréal Canadiens hockey team. Front end mobile development was done using AngularJS and Apache Cordova.</p>
+                            </div>
+                        </article>
+                    </div>
                 </section>
                 <footer>
                     <h2 id="contact">Contact</h2>
                     <div class="u">
-                        <div class="Contact-q">You can email me at</div><a class="Email y"><strong>matthewham4</strong> at <strong>gmail</strong> dot com</a>
+                        <div class="Contact-q">You can email me at</div><a target="_blank"  class="Email y"><strong>matthewham4</strong> at <strong>gmail</strong> dot com</a>
                         <div class="Contact-q">You can find me at</div>
                         <div class="Social">
-                            <br/><a class="y r" href="http://github.com/matthewninja"><strong>github</strong>.com/<strong>matthewninja</strong></a>
-                            <br/><a class="y r" href="http://linkedin.com/in/matthewninja"><strong>linkedin</strong>.com/in/<strong>matthewninja</strong></a></div>
+                            <br/><a class="y r" href="http://github.com/matthewninja" target="_blank" ><strong>github</strong>.com/<strong>matthewninja</strong></a>
+                            <br/><a class="y r" href="http://linkedin.com/in/matthewninja" target="_blank" ><strong>linkedin</strong>.com/in/<strong>matthewninja</strong></a></div>
+                    </div>
+                    <div>
+                      <p class="u footnote">This theme was made by <a href="https://github.com/lbebber/lbebber.github.io" target="_blank" >Lucas Bebber</a></p>
                     </div>
                 </footer>
             </div>
